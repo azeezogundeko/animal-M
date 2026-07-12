@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.dart_tool/
+.packages
+
+# Build outputs
+build/
+*.apk
+*.aab
+*.ipa
+*.app
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flutter
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.dart_tool/
+mobile/build/
+mobile/.packages
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+
+# Backend
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Claude
+.claude/
